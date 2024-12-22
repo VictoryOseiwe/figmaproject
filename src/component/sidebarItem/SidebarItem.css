@@ -1,0 +1,10 @@
+.sidebaritem {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  color: var(--iconcolor);
+}

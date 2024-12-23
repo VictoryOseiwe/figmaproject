@@ -1,12 +1,14 @@
 import React from "react";
 import "./SidebarItem.css";
 
-export default function SidebarItem({ icon, text, className }) {
+export default function SidebarItem({ icon, text, className, arrow }) {
   return (
     <>
-      <div className={"sidebaritem"}>
+      {/* general structure of the sidebarItem */}
+      <div id="sidebaritem" className={className}>
         {icon}
         {text}
+        {arrow}
       </div>
     </>
   );

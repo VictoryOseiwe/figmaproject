@@ -1,0 +1,20 @@
+#imageheaderdescription {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  color: var(--iconcolor);
+}
+
+#imageheaderdescription p {
+  margin: 0;
+}
+
+#imageheaderdescription h3 {
+  margin: 0;
+  color: var(--fontcolorblk);
+}
+
+#imageheaderdescription img {
+  border-radius: 5px;
+}

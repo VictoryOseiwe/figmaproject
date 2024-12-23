@@ -1,14 +1,20 @@
+/* font for the project using cdn  */
+@import url("https://fonts.cdnfonts.com/css/satoshi");
 :root {
+  /* colors for the project */
   --primarybgcolor: #f7f9fc;
   --secondarybgcolor: #e3eafb;
   --fontcolorblk: #1a1a21;
   --fontcolorgrey: #f0f2f5;
   --btnbgred: #d42620;
   --btnbgblue: #175cff;
-  --grey: #98a2b3;
+  /* --grey: #98a2b3; */
+  --grey: #f9fafb;
   --secondarygrey: #475367;
   --inputbgcolor: #d0d5dd;
   --iconcolor: #667185;
+  --logosubcolor: #141460;
+  --textcolorbg: #ffece5;
 
   /* font size */
   --fs-small: 12px;
@@ -18,13 +24,16 @@
   --fs-xx-large: 24px;
 }
 
-* {
+html,
+body {
   padding: 0;
   margin: 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  background-color: var(--primarybgcolor);
+  font-family: "Satoshi", sans-serif;
+  background-color: #ffffff;
+  scrollbar-width: thin;
 }
 
+/* general style for all input element  */
 input {
   border-radius: 5px;
   padding: 5px 10px;
@@ -35,11 +44,13 @@ input {
   color: var(--fontcolorblk);
 }
 
+/* general style for all the icon  */
 .icon {
   color: var(--btnbgblue);
   background-color: none;
 }
 
+/* general style for all the button  */
 button {
   border: none;
   border-radius: 5px;
@@ -48,9 +59,5 @@ button {
   color: var(--fontcolorblk);
   font-size: var(--fs-small);
   background-color: var(--btnbgblue);
-}
-
-.rejectbtn {
-  background-color: var(--btnbgred);
-  color: white;
+  margin-left: 10px;
 }

@@ -1,0 +1,197 @@
+/* Utility Class for Reusability */
+.box-container {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* General Grid Layout */
+.awaitingcontainer {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+@media (max-width: 768px) {
+  .awaitingcontainer {
+    grid-template-columns: 1fr;
+  }
+}
+
+.secondgridcontainer {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Top Section */
+.awaitingtopsection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--iconcolor);
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.backarrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Search Section */
+.searchbarsection {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid var(--iconcolor);
+  padding: 3px 8px;
+  border-radius: 5px;
+}
+
+/* User Section */
+.usersection {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Quote Details */
+.quotedetailscontainer {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.quotedetailscontainer p {
+  margin: 0;
+  color: var(--iconcolor);
+}
+
+.quotedetailscontainer h2 {
+  margin: 0;
+  color: var(--fontcolorblk);
+}
+
+/* Buttons */
+.respondbtn {
+  padding: 10px;
+  color: #ffffff;
+}
+
+.rejectbtn {
+  padding: 10px;
+  color: #ffffff;
+  background-color: var(--btnbgred);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quotebtn {
+  display: flex;
+  gap: 10px;
+}
+
+/* Quote Info Section */
+.quoteinfocontainer {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.quoteinfoitems {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  gap: 20px;
+  align-items: start;
+}
+
+@media (max-width: 768px) {
+  .quoteinfoitems {
+    grid-template-columns: 1fr;
+  }
+}
+
+.singlequoteinfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* Client Section */
+.clientcontainer {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 10px;
+  color: var(--iconcolor);
+}
+
+.client {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Status */
+#awaitingstatus {
+  border-radius: 10px;
+  padding: 5px;
+  color: var(--btnbgred);
+  background-color: var(--textcolorbg);
+  font-size: var(--fs-small);
+}
+
+/* Items Table */
+.items-table-container {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.item-menu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.itemlist {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .itemlist {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Terms and Attachments */
+.termsandattachmentscontainer {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

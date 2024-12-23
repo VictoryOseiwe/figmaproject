@@ -1,0 +1,39 @@
+.sidebarcontainer {
+  background-color: var(--primarybgcolor);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  height: 100vh;
+  overflow-y: auto;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logoletter {
+  color: var(--btnbgblue);
+  font-weight: 600;
+}
+
+.logosub {
+  color: var(--logosubcolor);
+  font-size: var(--fs-medium);
+  font-weight: 500;
+}
+
+.procurement {
+  background-color: var(--secondarybgcolor);
+}
+
+.sidebarbottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--iconcolor);
+}
